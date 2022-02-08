@@ -1,9 +1,9 @@
 
-test1 = ['a', 'b', 'c'];
-test2 = [1, 2, 3];
+const test1 = ['a', 'b', 'c'];
+const test2 = [1, 2, 3];
 
 function zipList(list1, list2) {
-  let combineList = [];
+  const combineList = [];
   for (let i = 0; i < list1.length; i++) {
     combineList.push(list1[i]);
     combineList.push(list2[i]);
